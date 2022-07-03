@@ -70,7 +70,7 @@ lazy val server = project
       "org.http4s" %% "http4s-scalatags" % http4sVersion,
       "org.http4s" %% "http4s-client" % http4sVersion,
       "org.http4s" %% "http4s-jdk-http-client" % "0.7.0",
-      "org.apache.commons" % "commons-imaging" % "1.0-alpha2",
+      "org.apache.commons" % "commons-imaging" % "1.0-alpha3",
     ),
 
     buildInfoKeys := Seq(
