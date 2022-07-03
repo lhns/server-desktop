@@ -20,7 +20,7 @@ lazy val root = project.in(file("."))
   .aggregate(server)
 
 val circeVersion = "0.14.1"
-val http4sVersion = "0.23.11"
+val http4sVersion = "0.23.12"
 
 lazy val common = crossProject(JVMPlatform, JSPlatform)
   .crossType(CrossType.Pure)
